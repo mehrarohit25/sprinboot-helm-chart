@@ -13,7 +13,7 @@ public class DemowebController {
     @GetMapping("/")
     public String home() {
         RestTemplate restTemplate = new RestTemplate();
-        String s= restTemplate.getForObject("http://34.171.207.92",String.class);
+        String s= restTemplate.getForObject("http://34.136.134.200:80",String.class);
         System.out.println(s);
         return s+ "    Hello World New !!.";
     }

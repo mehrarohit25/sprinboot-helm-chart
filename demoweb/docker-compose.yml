@@ -3,7 +3,7 @@ services:
   web:
     build:
         context: .
-    image: rohit2502/springboot-helm-chart:v1
+    image: rohit2502/springboot-helm-chart:v2
     ports:
       - 8080
     restart: always
